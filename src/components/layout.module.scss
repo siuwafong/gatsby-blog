@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 1rem;
+
+    // make the footer on the bottom
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    // this allows the container to grow as needed, leaving the footer in place
+    flex-grow: 1;
+}
