@@ -15,7 +15,7 @@ const IndexPage = () => {
       <h1>Hello.</h1>
       <h2>I'm Wilson.  I'm an aspiring full-stack developer based in Toronto, Canada. </h2>
       {/* Use <Link> instead of using <a> tags */}
-      <p> Need a developer? <Link to="/contact">Contact me.</Link></p>
+      <p> Need a developer or a math tutor? <Link to="/contact">Contact me.</Link></p>
     </Layout>
   )
 }
